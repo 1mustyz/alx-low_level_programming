@@ -10,7 +10,7 @@ int main(void)
 {
 	int r;
 
-	r = _islower('H');
+	r = _isalpha('H');
 	_putchar(r + '0');
 	_putchar("\n");
 	return (0);
